@@ -24,6 +24,7 @@ const Header = () => {
     const theme = JSON.parse(localStorage.getItem('mode'))
     if (theme) {
       setMode(theme)
+      document.querySelector("html").setAttribute("data-bs-theme", theme)
     }
   }, []);
 
