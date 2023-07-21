@@ -1,5 +1,5 @@
 # React Task Manager
-This is a task manager built with react and designed with bootstrap 5
+This is a task manager built with react and designed with bootstrap 5. The task manager saves the tasks in the localStorage. Any detail of the existing tasks can be updated any time
 
 ### links
 - [live demo](https://task-manager-react-app.netlify.app/)
